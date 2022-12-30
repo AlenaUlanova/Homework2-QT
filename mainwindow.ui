@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>1046</width>
     <height>600</height>
    </rect>
   </property>
@@ -17,7 +17,7 @@
    <widget class="QPlainTextEdit" name="plainTextEdit1">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>20</x>
       <y>30</y>
       <width>611</width>
       <height>351</height>
@@ -27,7 +27,7 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>20</x>
       <y>420</y>
       <width>611</width>
       <height>29</height>
@@ -37,13 +37,100 @@
      <string>Изменить текст</string>
     </property>
    </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>240</y>
+      <width>251</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="upPushButton">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>30</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Вверх</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="downPushButton">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>190</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Вниз</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>30</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>320</y>
+      <width>251</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Режим иконок</string>
+    </property>
+   </widget>
+   <widget class="QSplitter" name="splitter">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>280</y>
+      <width>251</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <widget class="QPushButton" name="addPushButton">
+     <property name="text">
+      <string>Добавить</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="editPushButton">
+     <property name="text">
+      <string>Изменить</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="deletePushButton">
+     <property name="text">
+      <string>Удалить</string>
+     </property>
+    </widget>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1046</width>
      <height>25</height>
     </rect>
    </property>

@@ -19,6 +19,18 @@ private slots:
 
     void on_plainTextEdit1_textChanged();
 
+    void on_upPushButton_clicked();
+
+    void on_downPushButton_clicked();
+
+    void on_addPushButton_clicked();
+
+    void on_editPushButton_clicked();
+
+    void on_deletePushButton_clicked();
+
+    void on_checkBox_stateChanged(int arg1);
+
 private:
     Ui::MainWindow *ui;
 };
